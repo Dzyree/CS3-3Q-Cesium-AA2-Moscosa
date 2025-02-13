@@ -9,8 +9,8 @@ function respondToClick() {
 
    let location = prompt('where is the monster? ');
    let name = prompt('what is the name of the monster? ');
-   let populationOfMonster = name.toUpperCase(name.concat(' ',location.toUpperCase()));
-   document.getElementById("result").innerText= "After " + time + " hours, the population of " + populationOfMonster + " has risen to " + finalPopulation;
+   let populationOfMonster = location.toUpperCase(location.concat(' ',.toUpperCase(name)));
+   document.getElementById("result").innerText= "After " + time + "hours, the population of " + populationOfMonster + " has risen to " + finalPopulation;
 
 
    
